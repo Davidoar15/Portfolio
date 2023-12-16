@@ -101,7 +101,7 @@ const Details = ({
           {project ? (
             <div className="flex flex-col justify-center items-center bg-slate-900 min-h-screen">
               <div className="flex flex-row justify-around items-center w-full">
-                <NavLink to={"/"}>
+                <NavLink to={"/Portfolio"}>
                   <button className="border-4 border-red-600 my-2 p-1 bg-slate-500 hover:bg-white rounded-xl cursor-pointer">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"

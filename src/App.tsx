@@ -26,11 +26,11 @@ function App() {
   const location = useLocation();
 
   useEffect(() => {
-    if (location.pathname === "/") {
+    if (location.pathname === "/Portfolio") {
       return;
     }
 
-    const validRoutes = ["/", "/project"];
+    const validRoutes = ["/Portfolio", "/Portfolio/project"];
     const isValidRoute = validRoutes.some((route) =>
       location.pathname.startsWith(route)
     );
@@ -53,7 +53,7 @@ function App() {
       <div>
         <Routes>
           <Route
-            path="/"
+            path="/Portfolio"
             element={
               <Principal
                 handleLanguageChange={handleLanguageChange}
@@ -62,7 +62,7 @@ function App() {
             }
           />
           <Route
-            path="/project/:id"
+            path="/Portfolio/project/:id"
             element={
               <Details
                 handleLanguageChange={handleLanguageChange}
