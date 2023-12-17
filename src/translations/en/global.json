@@ -14,7 +14,7 @@
 
     "Banner": {
         "title": "Welcome to My Website!",
-        "text": "Nice to mee you! I'm David Olivo Alfonso Rodríguez, Fullstack Web Developer. I'm 21 years old, Venezuelan living in Argentina. I have good capacity to adapt and learn. Very interested in acquire new knowledge. Fan of videogames and technology. Like to analyze through different situations."
+        "text": "Nice to meet you! I'm David Olivo Alfonso Rodríguez, Fullstack Web Developer. I'm 21 years old, Venezuelan living in Argentina. I have good capacity to adapt and learn. Very interested in acquire new knowledge. Fan of videogames and technology. Like to analyze through different situations."
     },
 
     "About": {
@@ -28,13 +28,13 @@
     "Projects": "Realized Projects",
 
     "Contact": {
-        "title": "Contact with Me!",
+        "title": "Contact Me!",
         "phName": "Enter Your Name",
         "phEmail": "Enter Your E-mail",
         "phTextarea": "Write Your Message...",
         "submit": "Submit",
         "postTitle": "Excellent!",
-        "postMsg": "Thanks for Contact!"
+        "postMsg": "Thank you for Contacting Me!"
     },
 
     "Footer": {
