@@ -7,6 +7,11 @@
         "contact": "Contacto"
     },
 
+    "Marquee": {
+        "notWorking": "ESTADO ACTUAL: EN BÚSQUEDA LABORAL ACTIVA",
+        "working": "ESTADO ACTUAL: ¡ESTOY TRABAJANDO!"
+    },
+
     "Details": {
         "stack": "Stack",
         "checkOut": "¡Echa un Vistazo!"

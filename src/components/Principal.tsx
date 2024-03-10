@@ -6,6 +6,7 @@ import Footer from "./Principal-Components/Footer";
 import NavBar from "./Principal-Components/NavBar";
 import Projects from "./Principal-Components/Project-Components/Projects";
 import Services from "./Principal-Components/Services";
+import MarqueeComp from "./Principal-Components/MarqueeComp";
 import { BallTriangle } from "react-loader-spinner";
 import { getProjects } from "../actions";
 import {
@@ -68,6 +69,7 @@ function Principal({
             handleLanguageChange={handleLanguageChange}
             currentLanguage={currentLanguage}
           />
+          <MarqueeComp currentLanguage={currentLanguage} />
           <Banner currentLanguage={currentLanguage} />
           <About currentLanguage={currentLanguage} />
           <Services currentLanguage={currentLanguage} />
