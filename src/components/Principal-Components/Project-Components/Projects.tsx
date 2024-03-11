@@ -51,9 +51,9 @@ const Projects = ({
       data-aos="fade-up"
       className="p-20 flex flex-col items-center justify-center"
     >
-      <h1 className="text-[52px] text-center font-semibold mb-20 leading-normal uppercase text-red-500">
+      <h2 className="text-[52px] text-center font-semibold mb-20 leading-normal uppercase text-red-500">
         {t("Projects", { lng: currentLanguage })}
-      </h1>
+      </h2>
 
       {paginatedProjects?.length ? (
         <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 justify-around gap-20">

@@ -39,12 +39,12 @@ const About = ({
       />
 
       <div className="h-full lg:py-40 flex flex-col justify-center lg:items-start items-center text-white">
-        <h1
+        <h2
           data-aos="fade-right"
           className="text-[52px] font-semibold mb-8 leading-normal text-red-500 uppercase"
         >
           {t("About.title", { lng: currentLanguage })}
-        </h1>
+        </h2>
         <p data-aos="fade-left" className="text-[20px]">
           {t("About.text", { lng: currentLanguage })}
         </p>

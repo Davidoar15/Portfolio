@@ -24,9 +24,9 @@ const Contact = ({
         data-aos="fade-up"
         className="p-4 lg:p-20 flex flex-col items-center justify-center"
       >
-        <h1 className="text-[52px] text-center font-semibold mb-15 leading-normal uppercase text-red-500">
+        <h2 className="text-[52px] text-center font-semibold mb-15 leading-normal uppercase text-red-500">
           {t("Contact.postTitle", { lng: currentLanguage })}
-        </h1>
+        </h2>
         <p className="text-[48px] text-slate-500 mt-6">
           {t("Contact.postMsg", { lng: currentLanguage })}
         </p>
@@ -49,12 +49,12 @@ const Contact = ({
       id="Contact"
       className="p-4 lg:p-20 flex flex-col items-center justify-center"
     >
-      <h1
+      <h2
         data-aos="fade-up"
         className="text-[52px] text-center font-semibold mb-15 leading-normal uppercase text-red-500"
       >
         {t("Contact.title", { lng: currentLanguage })}
-      </h1>
+      </h2>
 
       <form
         onSubmit={handleSubmit}

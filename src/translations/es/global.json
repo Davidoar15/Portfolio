@@ -28,7 +28,12 @@
         "cv": "Resumen | CV"
     },
 
-    "Services": "Servicios",
+    "Services": {
+        "title": "Servicios",
+        "language": "LENGUAJES DE PROGRAMACIÓN",
+        "db": "BASES DE DATOS",
+        "workTools": "HERRAMIENTAS DE TRABAJO"
+    },
     
     "Projects": "Proyectos Realizados",
 

@@ -14,9 +14,9 @@ const Error = ({
       <div className="w-[200px] h-auto">
         <img className="w-[100%] h-[100%]" src={errorImage} alt="Page Error" />
       </div>
-      <h1 className="font-bold font-mono text-2xl">
+      <h2 className="font-bold font-mono text-2xl">
         {t("Error.title", { lng: currentLanguage })}
-      </h1>
+      </h2>
       <h3 className="font-semibold font-mono text-xl text-center mx-5">
         {t("Error.text", { lng: currentLanguage })}
       </h3>

@@ -159,9 +159,9 @@ const Details = ({
                 </div>
 
                 <div className="flex flex-col justify-evenly items-center w-full md:w-96 h-auto mt-5 md:mt-0 b_glow rounded-xl p-4">
-                  <h1 className=" text-red-500 text-center font-bold font-mono text-4xl">
+                  <h2 className=" text-red-500 text-center font-bold font-mono text-4xl">
                     {project?.title}
-                  </h1>
+                  </h2>
                   <h2 className="text-white font-semibold font-mono text-xl my-5">
                     {currentLanguage === "en"
                       ? project?.type_EN
