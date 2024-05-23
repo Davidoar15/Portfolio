@@ -1,6 +1,8 @@
 import JS from "../assets/services/JavaScript-logo.png";
 import TS from "../assets/services/TypeScript.png";
 import JAVA from "../assets/services/JAVA.png";
+import CPP from "../assets/services/C++_logo.png";
+import Ruby from "../assets/services/Ruby-logo.png";
 import React from "../assets/services/React.png";
 import Vue from "../assets/services/Vue.png";
 import Next from "../assets/services/Next.png";
@@ -11,11 +13,13 @@ import Tailwind from "../assets/services/Tailwind-icon.png";
 import Bootstrap from "../assets/services/Bootstrap-icon.png";
 import Node from "../assets/services/Node.png";
 import Express from "../assets/services/expressjs-icon.png";
+import ROR from "../assets/services/ror-logo.png";
 import Postgre from "../assets/services/PostgreSQL.png";
 import MySQL from "../assets/services/mysql_icon.png";
 import MongoDB from "../assets/services/MongoDB.png";
 import VSC from "../assets/services/visual-studio-code-logo.png";
 import Git from "../assets/services/Git.png";
+import Docker from "../assets/services/docker-logo.png";
 import GitHub from "../assets/services/github-logo.png";
 import Slack from "../assets/services/Slack_icon.png";
 import Discord from "../assets/services/discord-logo.png";
@@ -24,6 +28,8 @@ interface ServiceImgProps {
     JS: string;
     TS: string;
     JAVA: string;
+    CPP: string;
+    Ruby: string;
     React: string;
     Vue: string;
     Next: string;
@@ -34,11 +40,13 @@ interface ServiceImgProps {
     Bootstrap: string
     Node: string;
     Express: string;
+    ROR: string;
     Postgre: string;
     MySQL: string;
     MongoDB: string;
     VSC: string;
     Git: string;
+    Docker: string;
     GitHub: string;
     Slack: string;
     Discord: string;
@@ -48,6 +56,8 @@ export const ServiceImg: ServiceImgProps = {
     JS,
     TS,
     JAVA,
+    CPP,
+    Ruby,
     React,
     Vue,
     Next,
@@ -58,11 +68,13 @@ export const ServiceImg: ServiceImgProps = {
     Bootstrap,
     Node,
     Express,
+    ROR,
     Postgre,
     MySQL,
     MongoDB,
     VSC,
     Git,
+    Docker,
     GitHub,
     Slack,
     Discord

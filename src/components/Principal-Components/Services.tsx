@@ -63,6 +63,32 @@ const Services = ({
                 </h2>
               </div>
             </div>
+
+            <div className="flex items-center justify-center">
+              <div className="text-center">
+                <h2 className="bg-slate-900 text-3xl font-semibold text-red-800 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
+                  C++
+                  <img
+                    src={ServiceImg.CPP}
+                    alt="CPP-logo"
+                    className="h-12 w-12 object-contain mt-4"
+                  />
+                </h2>
+              </div>
+            </div>
+
+            <div className="flex items-center justify-center">
+              <div className="text-center">
+                <h2 className="bg-slate-900 text-3xl font-semibold text-red-800 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
+                  Ruby
+                  <img
+                    src={ServiceImg.Ruby}
+                    alt="Ruby-logo"
+                    className="h-12 w-12 object-contain mt-4"
+                  />
+                </h2>
+              </div>
+            </div>
           </div>
         </details>
 
@@ -214,6 +240,19 @@ const Services = ({
 
             <div className="flex items-center justify-center">
               <div className="text-center">
+                <h2 className="bg-slate-900 text-2xl font-semibold text-red-800 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
+                  Ruby On Rails
+                  <img
+                    src={ServiceImg.ROR}
+                    alt="Ruby-On-Rails-logo"
+                    className="h-12 w-12 object-contain mt-4"
+                  />
+                </h2>
+              </div>
+            </div>
+
+            <div className="flex items-center justify-center">
+              <div className="text-center">
                 <h2 className="bg-slate-900 text-3xl font-semibold text-red-800 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
                   PostgreSQL
                   <img
@@ -280,6 +319,19 @@ const Services = ({
                   <img
                     src={ServiceImg.Git}
                     alt="Git-logo"
+                    className="h-12 w-12 object-contain mt-4"
+                  />
+                </h2>
+              </div>
+            </div>
+
+            <div className="flex items-center justify-center">
+              <div className="text-center">
+                <h2 className="bg-slate-900 text-3xl font-semibold text-red-800 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
+                  Docker
+                  <img
+                    src={ServiceImg.Docker}
+                    alt="Docker-logo"
                     className="h-12 w-12 object-contain mt-4"
                   />
                 </h2>
