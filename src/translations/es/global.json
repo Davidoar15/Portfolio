@@ -9,7 +9,7 @@
 
     "Marquee": {
         "notWorking": "ESTADO ACTUAL: EN BÚSQUEDA LABORAL ACTIVA",
-        "working": "ESTADO ACTUAL: ¡ESTOY TRABAJANDO EN PELOM!"
+        "working": "ESTADO ACTUAL: ¡ESTOY TRABAJANDO EN EXTRIMIAN!"
     },
 
     "Details": {
@@ -19,12 +19,12 @@
 
     "Banner": {
         "title": "¡Bienvenido a mi Sitio Web!",
-        "text": "¡Encantado de conocerte! Soy David Olivo Alfonso Rodríguez, Desarrollador Web Fullstack. Tengo 22 años, soy venezolano viviendo en Argentina, cursando la carrera de Ingeniería en Sistemas de Información en la Universidad Tecnológica Nacional (UTN). Tengo una buena capacidad de adaptación y aprendizaje. Muy interesado en adquirir nuevos conocimientos. Fanático de los videojuegos y las tecnologías. Me gusta analizar a fondo diferentes situaciones."
+        "text": "¡Encantado de conocerte! Soy David Olivo Alfonso Rodríguez, Desarrollador Fullstack. Tengo 22 años, soy venezolano viviendo en Argentina, cursando la carrera de Ingeniería en Sistemas de Información en la Universidad Tecnológica Nacional (UTN). Tengo una buena capacidad de adaptación y aprendizaje. Muy interesado en adquirir nuevos conocimientos. Fanático de los videojuegos y las tecnologías. Me gusta analizar a fondo diferentes situaciones."
     },
 
     "About": {
         "title": "Acerca de Mí",
-        "text": "Apasionado por la tecnología desde la infancia, mi trayectoria como desarrollador comenzó con tres semestres en Ingeniería de Sistemas en la Universidad Nacional Abierta (UNA) en Venezuela, donde adquirí una sólida base en C++. Influenciado por familiares y amigos, actualmente prospero como Desarrollador Web Full Stack, exhibiendo experiencia en JavaScript, TypeScript, ReactJS, Node, y habilidades en tecnologías como HTML, CSS, Express, Sequelize, PostgreSQL, Git, y metodologías ágiles como Scrum. Impulsado por una curiosidad constante y el disfrute de enfrentar desafíos tecnológicos, ¡me dedico a la mejora continua y a adquirir nuevas habilidades!",
+        "text": "Apasionado por la tecnología desde la infancia, mi trayectoria comenzó con tres semestres en Ingeniería de Sistemas en la Universidad Nacional Abierta (UNA) en Venezuela, donde adquirí una sólida base en C++. Influenciado por familiares y amigos, actualmente prospero como Desarrollador, exhibiendo experiencia en JavaScript, TypeScript, React, Node, y habilidades en tecnologías como HTML, CSS, Express, Sequelize, PostgreSQL, Git, y metodologías ágiles como Scrum. Impulsado por la curiosidad y el disfrute de enfrentar desafíos tecnológicos, ¡me dedico a la mejora continua y adquirir nuevas habilidades! 💻",
         "cv": "Resumen | CV"
     },
 

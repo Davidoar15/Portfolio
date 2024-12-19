@@ -9,7 +9,7 @@
 
     "Marquee": {
         "notWorking": "CURRENT STATUS: ACTIVE JOB SEARCH",
-        "working": "CURRENT STATUS: I'M WORKING IN PELOM!"
+        "working": "CURRENT STATUS: I'M WORKING IN EXTRIMIAN!"
     },
 
     "Details": {
@@ -19,12 +19,12 @@
 
     "Banner": {
         "title": "Welcome to My Website!",
-        "text": "Nice to meet you! I'm David Olivo Alfonso Rodríguez, Fullstack Web Developer. I'm 22 years old, Venezuelan living in Argentina, studying Information Systems Engineering at the National Technological University (UTN). I have good capacity to adapt and learn. Very interested in acquire new knowledge. Fan of video games and technologies. Like to analyze through different situations."
+        "text": "Nice to meet you! I'm David Olivo Alfonso Rodríguez, Fullstack Developer. I'm 22 years old, Venezuelan living in Argentina, studying Information Systems Engineering at the National Technological University (UTN). I have good capacity to adapt and learn. Very interested in acquire new knowledge. Fan of video games and technologies. Like to analyze through different situations."
     },
 
     "About": {
         "title": "About Me",
-        "text": "Passionate about technology since childhood, my journey as a developer began with three semesters in Systems Engineering at the National Open University (UNA) in Venezuela, where I gained a solid foundation in C++. Influenced by family and friends, I now thrive as a Full Stack Web Developer, showcasing expertise in JavaScript, TypeScript, ReactJS, Node, and proficiency in technologies like HTML, CSS, Express, Sequelize, PostgreSQL, Git, and agile methodologies such as Scrum. Driven by constant curiosity and the enjoyment of tackling technological challenges, I am dedicated to continuous improvement and acquiring new skills! 💻",
+        "text": "Passionate about technology since childhood, my journey began with three semesters in Systems Engineering at the National Open University (UNA) in Venezuela, where I gained a solid foundation in C++. Influenced by family and friends, I now thrive as a Developer. I showcase expertise in JavaScript, TypeScript, React, Node, and skills in technologies like HTML, CSS, Express, Sequelize, PostgreSQL, Git, and agile methodologies such as Scrum. Driven by curiosity and the enjoyment of tackling technological challenges, I am dedicated to continuous improvement and acquiring new skills! 💻",
         "cv": "Resume | CV"
     },
 
