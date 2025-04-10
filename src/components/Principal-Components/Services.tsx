@@ -27,7 +27,7 @@ const Services = ({
           <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 justify-around gap-10">
             <div className="flex items-center justify-center">
               <div className="text-center">
-                <h2 className="bg-slate-900 text-3xl font-semibold text-red-800 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
+                <h2 className="bg-slate-900 text-3xl font-semibold text-red-500 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
                   JavaScript
                   <img
                     src={ServiceImg.JS}
@@ -40,7 +40,7 @@ const Services = ({
 
             <div className="flex items-center justify-center">
               <div className="text-center">
-                <h2 className="bg-slate-900 text-3xl font-semibold text-red-800 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
+                <h2 className="bg-slate-900 text-3xl font-semibold text-red-500 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
                   TypeScript
                   <img
                     src={ServiceImg.TS}
@@ -53,11 +53,11 @@ const Services = ({
 
             <div className="flex items-center justify-center">
               <div className="text-center">
-                <h2 className="bg-slate-900 text-3xl font-semibold text-red-800 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
-                  JAVA
+                <h2 className="bg-slate-900 text-3xl font-semibold text-red-500 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
+                  Python
                   <img
-                    src={ServiceImg.JAVA}
-                    alt="JAVA-logo"
+                    src={ServiceImg.Python}
+                    alt="Python-logo"
                     className="h-12 w-12 object-contain mt-4"
                   />
                 </h2>
@@ -66,7 +66,7 @@ const Services = ({
 
             <div className="flex items-center justify-center">
               <div className="text-center">
-                <h2 className="bg-slate-900 text-3xl font-semibold text-red-800 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
+                <h2 className="bg-slate-900 text-3xl font-semibold text-red-500 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
                   C++
                   <img
                     src={ServiceImg.CPP}
@@ -79,7 +79,20 @@ const Services = ({
 
             <div className="flex items-center justify-center">
               <div className="text-center">
-                <h2 className="bg-slate-900 text-3xl font-semibold text-red-800 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
+                <h2 className="bg-slate-900 text-3xl font-semibold text-red-500 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
+                  JAVA
+                  <img
+                    src={ServiceImg.JAVA}
+                    alt="JAVA-logo"
+                    className="h-12 w-12 object-contain mt-4"
+                  />
+                </h2>
+              </div>
+            </div>
+
+            <div className="flex items-center justify-center">
+              <div className="text-center">
+                <h2 className="bg-slate-900 text-3xl font-semibold text-red-500 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
                   Ruby
                   <img
                     src={ServiceImg.Ruby}
@@ -101,7 +114,7 @@ const Services = ({
           <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 justify-around gap-10">
             <div className="flex items-center justify-center">
               <div className="text-center">
-                <h2 className="bg-slate-900 text-3xl font-semibold text-red-800 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
+                <h2 className="bg-slate-900 text-3xl font-semibold text-red-500 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
                   React
                   <img
                     src={ServiceImg.React}
@@ -114,7 +127,7 @@ const Services = ({
 
             <div className="flex items-center justify-center">
               <div className="text-center">
-                <h2 className="bg-slate-900 text-3xl font-semibold text-red-800 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
+                <h2 className="bg-slate-900 text-3xl font-semibold text-red-500 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
                   Vue
                   <img
                     src={ServiceImg.Vue}
@@ -127,7 +140,7 @@ const Services = ({
 
             <div className="flex items-center justify-center">
               <div className="text-center">
-                <h2 className="bg-slate-900 text-3xl font-semibold text-red-800 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
+                <h2 className="bg-slate-900 text-3xl font-semibold text-red-500 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
                   Next.js
                   <img
                     src={ServiceImg.Next}
@@ -140,7 +153,7 @@ const Services = ({
 
             <div className="flex items-center justify-center">
               <div className="text-center">
-                <h2 className="bg-slate-900 text-3xl font-semibold text-red-800 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
+                <h2 className="bg-slate-900 text-3xl font-semibold text-red-500 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
                   HTML5
                   <img
                     src={ServiceImg.HTML}
@@ -153,7 +166,7 @@ const Services = ({
 
             <div className="flex items-center justify-center">
               <div className="text-center">
-                <h2 className="bg-slate-900 text-3xl font-semibold text-red-800 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
+                <h2 className="bg-slate-900 text-3xl font-semibold text-red-500 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
                   CSS3
                   <img
                     src={ServiceImg.CSS}
@@ -166,7 +179,7 @@ const Services = ({
 
             <div className="flex items-center justify-center">
               <div className="text-center">
-                <h2 className="bg-slate-900 text-3xl font-semibold text-red-800 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
+                <h2 className="bg-slate-900 text-3xl font-semibold text-red-500 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
                   SASS
                   <img
                     src={ServiceImg.SASS}
@@ -179,7 +192,7 @@ const Services = ({
 
             <div className="flex items-center justify-center">
               <div className="text-center">
-                <h2 className="bg-slate-900 text-3xl font-semibold text-red-800 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
+                <h2 className="bg-slate-900 text-3xl font-semibold text-red-500 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
                   Tailwind
                   <img
                     src={ServiceImg.Tailwind}
@@ -192,7 +205,7 @@ const Services = ({
 
             <div className="flex items-center justify-center">
               <div className="text-center">
-                <h2 className="bg-slate-900 text-3xl font-semibold text-red-800 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
+                <h2 className="bg-slate-900 text-3xl font-semibold text-red-500 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
                   Bootstrap
                   <img
                     src={ServiceImg.Bootstrap}
@@ -214,7 +227,7 @@ const Services = ({
           <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 justify-around gap-10">
             <div className="flex items-center justify-center">
               <div className="text-center">
-                <h2 className="bg-slate-900 text-3xl font-semibold text-red-800 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
+                <h2 className="bg-slate-900 text-3xl font-semibold text-red-500 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
                   Node.js
                   <img
                     src={ServiceImg.Node}
@@ -227,7 +240,7 @@ const Services = ({
 
             <div className="flex items-center justify-center">
               <div className="text-center">
-                <h2 className="bg-slate-900 text-3xl font-semibold text-red-800 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
+                <h2 className="bg-slate-900 text-3xl font-semibold text-red-500 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
                   Express.js
                   <img
                     src={ServiceImg.Express}
@@ -240,7 +253,20 @@ const Services = ({
 
             <div className="flex items-center justify-center">
               <div className="text-center">
-                <h2 className="bg-slate-900 text-2xl font-semibold text-red-800 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
+                <h2 className="bg-slate-900 text-3xl font-semibold text-red-500 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
+                  NestJS
+                  <img
+                    src={ServiceImg.Nest}
+                    alt="NestJS-logo"
+                    className="h-12 w-12 object-contain mt-4"
+                  />
+                </h2>
+              </div>
+            </div>
+
+            <div className="flex items-center justify-center">
+              <div className="text-center">
+                <h2 className="bg-slate-900 text-2xl font-semibold text-red-500 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
                   Ruby On Rails
                   <img
                     src={ServiceImg.ROR}
@@ -253,7 +279,20 @@ const Services = ({
 
             <div className="flex items-center justify-center">
               <div className="text-center">
-                <h2 className="bg-slate-900 text-3xl font-semibold text-red-800 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
+                <h2 className="bg-slate-900 text-3xl font-semibold text-red-500 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
+                  LangChain
+                  <img
+                    src={ServiceImg.LangChain}
+                    alt="LangChain-logo"
+                    className="h-12 w-12 object-contain mt-4"
+                  />
+                </h2>
+              </div>
+            </div>
+
+            <div className="flex items-center justify-center">
+              <div className="text-center">
+                <h2 className="bg-slate-900 text-3xl font-semibold text-red-500 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
                   PostgreSQL
                   <img
                     src={ServiceImg.Postgre}
@@ -266,7 +305,7 @@ const Services = ({
 
             <div className="flex items-center justify-center">
               <div className="text-center">
-                <h2 className="bg-slate-900 text-3xl font-semibold text-red-800 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
+                <h2 className="bg-slate-900 text-3xl font-semibold text-red-500 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
                   MySQL
                   <img
                     src={ServiceImg.MySQL}
@@ -279,11 +318,24 @@ const Services = ({
 
             <div className="flex items-center justify-center">
               <div className="text-center">
-                <h2 className="bg-slate-900 text-3xl font-semibold text-red-800 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
+                <h2 className="bg-slate-900 text-3xl font-semibold text-red-500 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
                   MongoDB
                   <img
                     src={ServiceImg.MongoDB}
                     alt="MongoDB-logo"
+                    className="h-12 w-12 object-contain mt-4"
+                  />
+                </h2>
+              </div>
+            </div>
+
+            <div className="flex items-center justify-center">
+              <div className="text-center">
+                <h2 className="bg-slate-900 text-3xl font-semibold text-red-500 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
+                  Redis
+                  <img
+                    src={ServiceImg.Redis}
+                    alt="Redis-logo"
                     className="h-12 w-12 object-contain mt-4"
                   />
                 </h2>
@@ -301,7 +353,7 @@ const Services = ({
           <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 justify-around gap-10">
             <div className="flex items-center justify-center">
               <div className="text-center">
-                <h2 className="bg-slate-900 text-2xl font-semibold text-red-800 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
+                <h2 className="bg-slate-900 text-2xl font-semibold text-red-500 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
                   Visual Studio Code
                   <img
                     src={ServiceImg.VSC}
@@ -314,7 +366,7 @@ const Services = ({
 
             <div className="flex items-center justify-center">
               <div className="text-center">
-                <h2 className="bg-slate-900 text-3xl font-semibold text-red-800 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
+                <h2 className="bg-slate-900 text-3xl font-semibold text-red-500 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
                   Git
                   <img
                     src={ServiceImg.Git}
@@ -327,7 +379,7 @@ const Services = ({
 
             <div className="flex items-center justify-center">
               <div className="text-center">
-                <h2 className="bg-slate-900 text-3xl font-semibold text-red-800 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
+                <h2 className="bg-slate-900 text-3xl font-semibold text-red-500 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
                   Docker
                   <img
                     src={ServiceImg.Docker}
@@ -340,7 +392,7 @@ const Services = ({
 
             <div className="flex items-center justify-center">
               <div className="text-center">
-                <h2 className="bg-slate-900 text-3xl font-semibold text-red-800 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
+                <h2 className="bg-slate-900 text-3xl font-semibold text-red-500 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
                   GitHub
                   <img
                     src={ServiceImg.GitHub}
@@ -353,7 +405,7 @@ const Services = ({
 
             <div className="flex items-center justify-center">
               <div className="text-center">
-                <h2 className="bg-slate-900 text-3xl font-semibold text-red-800 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
+                <h2 className="bg-slate-900 text-3xl font-semibold text-red-500 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
                   Slack
                   <img
                     src={ServiceImg.Slack}
@@ -366,7 +418,7 @@ const Services = ({
 
             <div className="flex items-center justify-center">
               <div className="text-center">
-                <h2 className="bg-slate-900 text-3xl font-semibold text-red-800 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
+                <h2 className="bg-slate-900 text-3xl font-semibold text-red-500 rounded-xl h-36 w-44 border-2 border-red-800 b_glow flex flex-col items-center justify-center">
                   Discord
                   <img
                     src={ServiceImg.Discord}

@@ -1,5 +1,6 @@
 import JS from "../assets/services/JavaScript-logo.png";
 import TS from "../assets/services/TypeScript.png";
+import Python from "../assets/services/Python-icon.png"
 import JAVA from "../assets/services/JAVA.png";
 import CPP from "../assets/services/C++_logo.png";
 import Ruby from "../assets/services/Ruby-logo.png";
@@ -12,11 +13,14 @@ import SASS from "../assets/services/sass_icon.png";
 import Tailwind from "../assets/services/Tailwind-icon.png";
 import Bootstrap from "../assets/services/Bootstrap-icon.png";
 import Node from "../assets/services/Node.png";
+import Nest from "../assets/services/nestjs-icon.png"
 import Express from "../assets/services/expressjs-icon.png";
 import ROR from "../assets/services/ror-logo.png";
+import LangChain from "../assets/services/langchain-icon.png"
 import Postgre from "../assets/services/PostgreSQL.png";
 import MySQL from "../assets/services/mysql_icon.png";
 import MongoDB from "../assets/services/MongoDB.png";
+import Redis from "../assets/services/redis-icon.png"
 import VSC from "../assets/services/visual-studio-code-logo.png";
 import Git from "../assets/services/Git.png";
 import Docker from "../assets/services/docker-logo.png";
@@ -27,6 +31,7 @@ import Discord from "../assets/services/discord-logo.png";
 interface ServiceImgProps {
     JS: string;
     TS: string;
+    Python: string;
     JAVA: string;
     CPP: string;
     Ruby: string;
@@ -39,11 +44,14 @@ interface ServiceImgProps {
     Tailwind: string;
     Bootstrap: string
     Node: string;
+    Nest: string;
     Express: string;
     ROR: string;
+    LangChain: string;
     Postgre: string;
     MySQL: string;
     MongoDB: string;
+    Redis: string;
     VSC: string;
     Git: string;
     Docker: string;
@@ -55,6 +63,7 @@ interface ServiceImgProps {
 export const ServiceImg: ServiceImgProps = {
     JS,
     TS,
+    Python,
     JAVA,
     CPP,
     Ruby,
@@ -67,11 +76,14 @@ export const ServiceImg: ServiceImgProps = {
     Tailwind,
     Bootstrap,
     Node,
+    Nest,
     Express,
     ROR,
+    LangChain,
     Postgre,
     MySQL,
     MongoDB,
+    Redis,
     VSC,
     Git,
     Docker,

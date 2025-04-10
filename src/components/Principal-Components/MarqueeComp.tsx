@@ -9,7 +9,7 @@ const MarqueeComp = ({
   }) => {
 
     const { t } = useTranslation("global");
-    const isWorking = true;
+    const isWorking = false;
 
     return (
         <Marquee className="bg-gray-500 mt-2 text-green-400 font-semibold md:font-bold">
