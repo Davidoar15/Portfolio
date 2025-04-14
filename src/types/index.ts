@@ -6,8 +6,9 @@ type Techs = {
 export interface Project {
     _id: string,
     title: string,
-    type_EN: string,
-    type_ES: string,
+    isJob: boolean,
+    role_EN: string,
+    role_ES: string,
     description_EN: string,
     description_ES: string,
     images: string[],

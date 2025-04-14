@@ -37,6 +37,9 @@ const Footer = ({
               {t("Footer.webDevelopment", { lng: currentLanguage })}
             </li>
             <li className="my-2">E - Commerce</li>
+            <li className="my-2">
+              {t("Footer.webAppsProjects", { lng: currentLanguage })}
+            </li>
           </ul>
         </div>
 

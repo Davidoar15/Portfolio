@@ -3,7 +3,7 @@
         "home": "Home",
         "about": "About",
         "services": "Services",
-        "projects": "Projects",
+        "projects": "Experience",
         "contact": "Contact"
     },
 
@@ -19,12 +19,12 @@
 
     "Banner": {
         "title": "Welcome to My Website!",
-        "text": "Nice to meet you! I'm David Olivo Alfonso Rodríguez, Fullstack Developer. I'm 22 years old, Venezuelan living in Argentina, studying Information Systems Engineering at the National Technological University (UTN). I have good capacity to adapt and learn. Very interested in acquire new knowledge. Fan of video games and technologies. Like to analyze through different situations."
+        "text": "Nice to meet you! I'm David Olivo Alfonso Rodríguez, a Fullstack Developer. I'm 22 years old, originally from Venezuela, and currently living in Argentina while pursuing a degree in Information Systems Engineering at UTN. I have hands-on experience in professional environments, working across both frontend and backend. I’m passionate about continuous growth, quick to adapt, and enjoy learning new technologies and solving technical challenges. I'm a video game enthusiast, naturally curious, and fully committed to constant improvement."
     },
 
     "About": {
         "title": "About Me",
-        "text": "Passionate about technology since childhood, my journey began with three semesters in Systems Engineering at the National Open University (UNA) in Venezuela, where I gained a solid foundation in C++. Influenced by family and friends, I now thrive as a Developer. I showcase expertise in JavaScript, TypeScript, React, Node, and skills in technologies like HTML, CSS, Express, Sequelize, PostgreSQL, Git, and agile methodologies such as Scrum. Driven by curiosity and the enjoyment of tackling technological challenges, I am dedicated to continuous improvement and acquiring new skills! 💻",
+        "text": "Passionate about technology from an early age, my journey began with studies in Systems Engineering in Venezuela and continues today at UTN (Argentina). With professional experience in companies and freelance or collaborative projects, I work as a Fullstack Developer with strong skills in JavaScript, TypeScript, React, Node.js, NestJS, PostgreSQL, MongoDB, Docker, and more. I’ve worked under agile methodologies like Scrum and actively contribute to improving digital products. I'm driven by the challenge of solving technical problems and constantly evolving as a professional. 💻",
         "cv": "Resume | CV"
     },
 
@@ -35,7 +35,15 @@
         "workTools": "WORK TOOLS"
     },
 
-    "Projects": "Realized Projects",
+    "Experiences": {
+        "title": "Experiences",
+        "jobs": "Work Experience",
+        "projects": "Realized Projects",
+        "loading": {
+            "jobs": "Loading jobs...",
+            "projects": "Loading projects..."
+        }
+    },
 
     "Contact": {
         "title": "Contact Me!",
@@ -52,6 +60,7 @@
         "services": "Services",
         "webDesign": "Web Design",
         "webDevelopment": "Web Development",
+        "webAppsProjects": "Application and Project Development",
         "contact": "Contacts",
         "phone": "Phone",
         "networks": "Follow Me"

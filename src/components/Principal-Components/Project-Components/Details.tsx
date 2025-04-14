@@ -99,21 +99,22 @@ const Details = ({
       ) : (
         <>
           {project ? (
-            <div className="flex flex-col justify-center items-center bg-slate-900 min-h-screen">
-              <div className="flex flex-row justify-around items-center w-full">
+            <div className="flex flex-col justify-center items-center bg-slate-900 min-h-screen px-4 py-6 gap-10">
+              {/* TOP BAR */}
+              <div className="flex justify-between items-center w-full max-w-6xl">
                 <NavLink to={"/Portfolio"}>
-                  <button className="border-4 border-red-600 my-2 p-1 bg-slate-500 hover:bg-white rounded-xl cursor-pointer">
+                  <button className="border-4 border-red-600 p-1 bg-slate-500 hover:bg-white rounded-xl cursor-pointer">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="icon icon-tabler icon-tabler-home"
                       width="24"
                       height="24"
                       viewBox="0 0 24 24"
-                      stroke-width="2"
+                      strokeWidth="2"
                       stroke="currentColor"
                       fill="none"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     >
                       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                       <path d="M5 12l-2 0l9 -9l9 9l-2 0" />
@@ -123,66 +124,61 @@ const Details = ({
                   </button>
                 </NavLink>
                 {currentLanguage === "en" ? (
-                  <>
-                    <img
-                      src={en}
-                      className="w-8 h-8 cursor-pointer"
-                      onClick={() => handleLanguageChange("es")}
-                    />
-                  </>
+                  <img
+                    src={en}
+                    className="w-8 h-8 cursor-pointer"
+                    onClick={() => handleLanguageChange("es")}
+                  />
                 ) : (
-                  <>
-                    <img
-                      src={es}
-                      className="w-8 h-8 cursor-pointer"
-                      onClick={() => handleLanguageChange("en")}
-                    />
-                  </>
+                  <img
+                    src={es}
+                    className="w-8 h-8 cursor-pointer"
+                    onClick={() => handleLanguageChange("en")}
+                  />
                 )}
               </div>
 
-              <div className="flex flex-col md:flex-row gap-10 mx-5 mt-2">
-                <div className="flex flex-col items-center gap-2 md:w-[70%]">
-                  <div className="project-item">
-                    {paginatedImgs?.map((img, index) => (
-                      <img
-                        key={index}
-                        src={img}
-                        alt={`project-img-${index}`}
-                        className="project-image p-2 border-double border-8 rounded-xl border-white"
-                      />
-                    ))}
-                  </div>
-                  <div className="flex flex-row justify-center gap-4">
-                    {renderPageNumbers()}
-                  </div>
+              {/* IMAGES + PAGINATION */}
+              <div className="w-full max-w-4xl flex flex-col items-center gap-4">
+                <div className="project-item">
+                  {paginatedImgs?.map((img, index) => (
+                    <img
+                      key={index}
+                      src={img}
+                      alt={`project-img-${index}`}
+                      className="project-image p-2 border-double border-8 rounded-xl border-white"
+                    />
+                  ))}
                 </div>
-
-                <div className="flex flex-col justify-evenly items-center w-full md:w-96 h-auto mt-5 md:mt-0 b_glow rounded-xl p-4">
-                  <h2 className=" text-red-500 text-center font-bold font-mono text-4xl">
-                    {project?.title}
-                  </h2>
-                  <h2 className="text-white font-semibold font-mono text-xl my-5">
-                    {currentLanguage === "en"
-                      ? project?.type_EN
-                      : project?.type_ES}
-                  </h2>
-                  <div>
-                    <p className="text-white font-mono">
-                      {currentLanguage === "en"
-                        ? project?.description_EN
-                        : project?.description_ES}
-                    </p>
-                  </div>
+                <div className="flex flex-row justify-center gap-3 flex-wrap">
+                  {renderPageNumbers()}
                 </div>
               </div>
 
-              <div className="flex flex-col justify-center items-center md:flex-row gap-10 mx-5 my-5">
-                <div className="flex flex-col items-center gap-2">
-                  <h4 className="text-blue-600 font-semibold font-mono">
+              {/* TEXT SECTION */}
+              <div className="flex flex-col items-center text-center gap-5 max-w-2xl">
+                <h2 className="text-red-500 font-bold font-mono text-4xl">
+                  {project?.title}
+                </h2>
+                <h3 className="text-white font-semibold font-mono text-xl">
+                  {currentLanguage === "en"
+                    ? project?.role_EN
+                    : project?.role_ES}
+                </h3>
+                <p className="text-white font-mono">
+                  {currentLanguage === "en"
+                    ? project?.description_EN
+                    : project?.description_ES}
+                </p>
+              </div>
+
+              {/* STACKS + LINKS */}
+              <div className="w-full max-w-6xl flex flex-col md:flex-row justify-center md:justify-between gap-10 mt-4">
+                {/* STACKS */}
+                <div className="flex flex-col items-center gap-3 w-full md:w-1/2">
+                  <h4 className="text-blue-600 font-semibold font-mono text-xl">
                     {t("Details.stack", { lng: currentLanguage })}
                   </h4>
-
                   <div className="flex flex-wrap justify-center items-center px-2 py-1 rounded-ss-3xl rounded-br-3xl b_glow">
                     {project.technologies.map((tech, index) => (
                       <div key={index} className="m-2">
@@ -197,17 +193,22 @@ const Details = ({
                   </div>
                 </div>
 
-                <div className="flex flex-col items-center w-full md:w-96 mt-5 md:mt-0 gap-2">
-                  <h4 className="text-blue-600 font-semibold font-mono">
+                {/* LINKS */}
+                <div className="flex flex-col items-center gap-3 w-full md:w-1/2">
+                  <h4 className="text-blue-600 font-semibold font-mono text-xl">
                     {t("Details.checkOut", { lng: currentLanguage })}
                   </h4>
-
-                  <div className="border-double border-4 rounded-xl border-white px-2 py-1">
-                    <ul>
+                  <div className="border-double border-4 rounded-xl border-white px-3 py-2 w-full max-w-md">
+                    <ul className="flex flex-col items-start gap-2">
                       {project.link.map((link, index) => (
-                        <Link key={index} to={link}>
-                          <li className="text-white font-mono hover:text-blue-600">
-                            - {link}
+                        <Link
+                          key={index}
+                          to={link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <li className="text-white font-mono hover:text-blue-600 break-all">
+                            {link}
                           </li>
                         </Link>
                       ))}

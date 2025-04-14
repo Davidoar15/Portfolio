@@ -3,7 +3,7 @@
         "home": "Inicio",
         "about": "Sobre Mí",
         "services": "Servicios",
-        "projects": "Proyectos",
+        "projects": "Experiencia",
         "contact": "Contacto"
     },
 
@@ -19,12 +19,12 @@
 
     "Banner": {
         "title": "¡Bienvenido a mi Sitio Web!",
-        "text": "¡Encantado de conocerte! Soy David Olivo Alfonso Rodríguez, Desarrollador Fullstack. Tengo 22 años, soy venezolano viviendo en Argentina, cursando la carrera de Ingeniería en Sistemas de Información en la Universidad Tecnológica Nacional (UTN). Tengo una buena capacidad de adaptación y aprendizaje. Muy interesado en adquirir nuevos conocimientos. Fanático de los videojuegos y las tecnologías. Me gusta analizar a fondo diferentes situaciones."
+        "text": "¡Encantado de conocerte! Soy David Olivo Alfonso Rodríguez, Desarrollador Fullstack. Tengo 22 años, soy venezolano y actualmente resido en Argentina, donde curso la carrera de Ingeniería en Sistemas de Información en la UTN. Cuento con experiencia práctica en entornos profesionales, trabajando tanto en frontend como backend, y me apasiona mantenerme en constante crecimiento. Me adapto con facilidad, disfruto aprender nuevas tecnologías y resolver problemas técnicos. Amante de los videojuegos, curioso por naturaleza y comprometido con la mejora continua."
     },
 
     "About": {
         "title": "Acerca de Mí",
-        "text": "Apasionado por la tecnología desde la infancia, mi trayectoria comenzó con tres semestres en Ingeniería de Sistemas en la Universidad Nacional Abierta (UNA) en Venezuela, donde adquirí una sólida base en C++. Influenciado por familiares y amigos, actualmente prospero como Desarrollador, exhibiendo experiencia en JavaScript, TypeScript, React, Node, y habilidades en tecnologías como HTML, CSS, Express, Sequelize, PostgreSQL, Git, y metodologías ágiles como Scrum. Impulsado por la curiosidad y el disfrute de enfrentar desafíos tecnológicos, ¡me dedico a la mejora continua y adquirir nuevas habilidades! 💻",
+        "text": "Apasionado por la tecnología desde temprana edad, mi camino comenzó con estudios en Ingeniería de Sistemas en Venezuela, y continúa hoy en la UTN (Argentina). Con experiencia profesional en empresa y proyectos freelance o colaborativos, me desempeño como Desarrollador Fullstack con conocimientos sólidos en JavaScript, TypeScript, React, Node.js, NestJS, PostgreSQL, MongoDB, Docker, y más. He trabajado bajo metodologías ágiles como Scrum y participo activamente en la mejora de productos digitales. Me motiva enfrentar desafíos tecnológicos y evolucionar constantemente como profesional. 💻",
         "cv": "Resumen | CV"
     },
 
@@ -35,7 +35,15 @@
         "workTools": "HERRAMIENTAS DE TRABAJO"
     },
     
-    "Projects": "Proyectos Realizados",
+    "Experiences": {
+        "title": "Experiencias",
+        "jobs": "Experiencia Laboral",
+        "projects": "Proyectos Realizados",
+        "loading": {
+            "jobs": "Cargando trabajos...",
+            "projects": "Cargando proyectos..."
+        }
+    },
 
     "Contact": {
         "title": "¡Contacta conmigo!",
@@ -52,6 +60,7 @@
         "services": "Servicios",
         "webDesign": "Diseño Web",
         "webDevelopment": "Desarrollo Web",
+        "webAppsProjects": "Desarrollo de Apps y Proyectos",
         "contact": "Contactos",
         "phone": "Tlf",
         "networks": "Sígueme"
